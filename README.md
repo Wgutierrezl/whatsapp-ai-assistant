@@ -1,6 +1,6 @@
-# 🤖 Pocki Bot – Asistente Virtual de WhatsApp
+# 🤖 WhatsApp AI Assistant – Asistente Virtual con IA y Tool-Calling
 
-Bot de WhatsApp con inteligencia artificial desarrollado como prueba técnica para **C-Pocket**. Recibe mensajes de texto, analiza la intención del usuario con IA, ejecuta herramientas personalizadas (tools) y responde directamente por WhatsApp.
+Bot de WhatsApp con inteligencia artificial construido con NestJS. Recibe mensajes de texto, analiza la intención del usuario con IA, ejecuta herramientas personalizadas (tools) y responde directamente por WhatsApp.
 
 ---
 
@@ -140,7 +140,7 @@ WHATSAPP_TOKEN=...
 DATABASE_URL=postgresql://usuario:password@host:5432/postgres
 
 # Token secreto para verificar el webhook de Meta
-WEBHOOK_VERIFY_TOKEN=pocki_secret_2026
+WEBHOOK_VERIFY_TOKEN=your_webhook_verify_token
 ```
 
 > Puedes usar el archivo `.env.example` incluido en el repositorio como plantilla.
@@ -155,7 +155,7 @@ Requiere tener [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 ```bash
 # 1. Clona el repositorio
-git clone -b main https://github.com/Wgutierrezl/C-Pocket-IA-Test.git .
+git clone -b main https://github.com/Wgutierrezl/whatsapp-ai-assistant.git .
 
 # 2. Crea el archivo .env con las variables de entorno
 
@@ -173,7 +173,7 @@ Requiere Node.js instalado (v18+ recomendado).
 
 ```bash
 # 1. Clona el repositorio
-git clone -b main https://github.com/Wgutierrezl/C-Pocket-IA-Test.git .
+git clone -b main https://github.com/Wgutierrezl/whatsapp-ai-assistant.git .
 
 # 2. Instala dependencias
 npm install
@@ -249,4 +249,4 @@ Este proyecto se expone localmente con **ngrok**. Ten en cuenta que:
 ## 👨‍💻 Autor
 
 **Walter Ernesto Gutiérrez Londoño**  
-Prueba técnica – C-Pocket / Pocki Asistente Virtual
+Backend & Full Stack Developer
